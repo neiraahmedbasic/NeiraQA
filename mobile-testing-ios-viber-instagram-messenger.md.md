@@ -1,3 +1,20 @@
+# Mobile App Testing – iOS (Viber, Instagram, Messenger)
+
+This file contains test cases and bug reports for mobile applications tested on iPhone 13.
+
+### ✅ Included Test Cases:
+- **Viber (v25.5.2)** – Offline messaging behavior (Negative Test)
+- **Instagram PWA Web** – Registration form validation with already used email (Happy Path with invalid input)
+
+### 🐞 Included Bug Reports:
+- **Messenger (v512.0.0)** – 
+   1. Recently shared files and links not visible immediately under the "Files and Links" tab
+   2. Push notifications not received until the app is manually opened
+
+All tests are written for iOS 18.5 on iPhone 13 and cover functional, offline, and user experience scenarios. Test data, steps, expected vs actual results, severity, and priority are clearly documented.
+
+
+
 Test case : Validate Viber chat functionality without internet connection (iPhone 13, v25.5.2)
 
 Test Case ID: TC\_VIBER\_001
