@@ -58,7 +58,6 @@ The collection includes both **positive and negative test cases**, validation of
 - ✅ Response included new user ID
 
 ---
-
 ## 📌 Summary
 
 This collection demonstrates comprehensive API testing using Postman. It includes:
