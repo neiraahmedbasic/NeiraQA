@@ -126,7 +126,7 @@ pm.test("Response time is less than 1000ms", function () {
 ## 🛠️ Tools & Technologies
 
 - **Postman** (API testing, environments, scripting)
-- **SQL** (PostgreSQL/MySQL – query validation)
+- **SQL** (MySQL – query validation)
 - **Chrome DevTools** (Frontend and network debugging)
 - **Excel / Markdown** (Manual test case writing)
 - **GitHub** (Version control and collaboration)
