@@ -20,8 +20,6 @@ Welcome to my QA portfolio! This repository showcases my practical work in manua
 - `boundary-value-analysis-week3.md`
 - `bug-reports-cosmetic-cloth-reserved.md`
 - `Improvement.md`
-- `test-plan.md`
-- `test-cases-overview.md`
 
 #### 🧾 Test Case Example
 
@@ -42,8 +40,12 @@ Expected result: Message fails to send with appropriate offline notification
 
 - Full Postman collection with organized folders for each endpoint
 - Tests include GET, POST, PUT, DELETE methods
-- Use of **Authorization tokens** (Bearer Token)  
+- Use of **Authorization tokens** (Bearer Token)  Content-Type: application/json
+Authorization: Bearer {{auth_token}}
 - Environment variables used for base URL and authentication  
+- Tokens, sensitive data, and dynamic variables should be managed via environment files
+- JSON request bodies and response schema can be validated using scripts
+- Tests can be run via Postman Collection Runner or Newman for automation
 - Headers set for `Content-Type`, `Authorization`, etc.  
 - Included Postman test scripts with validations (status codes, response time, schema checks)
 - Test report exported and documented
