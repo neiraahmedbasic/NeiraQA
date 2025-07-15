@@ -85,15 +85,6 @@ pm.test("Response time is less than 1000ms", function () {
 📄 File:
 - `sql-queries-.md`
 
-#### 🧾 SQL Snippet
-
-```sql
--- Find all users who registered in the last 30 days
-SELECT name, email, created_at
-FROM users
-WHERE created_at >= CURRENT_DATE - INTERVAL '30 days';
-```
-
 ---
 
 ### 🔧 Bug Reports
