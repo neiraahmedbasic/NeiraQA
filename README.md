@@ -1,29 +1,34 @@
-# QA Portfolio – Neira Ahmedbasic
+QA Portfolio – Neira Ahmedbasic
+Welcome to my QA portfolio! This repository showcases my practical work in manual testing, API testing with Postman, SQL validation, structured bug reporting, and usability improvements. The goal of this portfolio is to demonstrate my knowledge and hands-on experience in software testing across different tools and methodologies.
 
-Welcome to my QA portfolio! This repository showcases my practical work in manual testing, API testing with Postman, SQL validation, structured bug reporting, and usability improvements. The goal of this portfolio is to demonstrate my knowledge and hands-on experience in software testing across different tools and methods.
+📁 Contents
+✅ Manual Testing
+Test cases for mobile and web applications (iOS apps, chat apps, e-commerce flows)
 
----
+Boundary Value Analysis (BVA) and Equivalence Partitioning (EP)
 
-## 📁 Contents
+Pre-test and Re-test scenarios
 
-### ✅ Manual Testing
+Usability feedback focusing on layout, navigation, and messaging clarity
 
-- Test Cases for mobile and web applications (iOS apps, chat apps, e-commerce flows)
-- Boundary Value Analysis (BVA) and Equivalence Partitioning (EP)
-- Pre-test and Re-test scenarios
-- Usability feedback (layout, navigation, messaging)
-- Structured Bug Reports with reproduction steps and expected vs. actual outcomes
-- Test Plan document describing scope, objectives, tools, and schedule
+Structured bug reports with detailed reproduction steps, expected vs. actual results
+
+Test Plan documents describing scope, objectives, tools, and schedules
 
 📄 Example Files:
-- `mobile-testing-ios-viber-instagram-messenger.md.md`
-- `boundary-value-analysis-week3.md`
-- `bug-reports-cosmetic-cloth-reserved.md`
-- `Improvement.md`
 
-#### 🧾 Test Case Example
+Improvement.md
 
-```
+QA_Test_Cases_and_Bug_Reports.md
+
+boundary-value-analysis-week3.md
+
+bug-reports-cosmetic-cloth-reserved.md
+
+🧾 Test Case Example
+vbnet
+Kopiraj
+Uredi
 Test Case ID: TC_VIBER_001  
 Title: Validate Viber chat functionality without internet connection  
 Platform: iPhone 13, App version 25.5.2  
@@ -32,117 +37,57 @@ Steps:
 2. Open Viber  
 3. Try to send a message  
 Expected result: Message fails to send with appropriate offline notification  
-```
+🔌 API Testing – Postman
+Full Postman collections with organized folders for each endpoint
 
----
+Tests include GET, POST, PUT, DELETE methods
 
-### 🔌 API Testing – Postman
+Use of Authorization tokens (Bearer Token) and environment variables for secure handling of sensitive data
 
-- Full Postman collection with organized folders for each endpoint
-- Tests include GET, POST, PUT, DELETE methods
-- Use of **Authorization tokens** (Bearer Token)  Content-Type: application/json
-Authorization: Bearer {{auth_token}}
-- Environment variables used for base URL and authentication  
-- Tokens, sensitive data, and dynamic variables should be managed via environment files
-- JSON request bodies and response schema can be validated using scripts
-- Tests can be run via Postman Collection Runner or Newman for automation
-- Headers set for `Content-Type`, `Authorization`, etc.  
-- Included Postman test scripts with validations (status codes, response time, schema checks)
-- Test report exported and documented
+Validation of JSON request bodies and response schemas with test scripts
+
+Automated test runs via Postman Collection Runner or Newman
+
+Well-defined headers such as Content-Type and Authorization
+
+Exported test reports documenting results and coverage
 
 📄 File:
-- `postman-petstore-api-tests.md`
 
-#### 🔐 Headers & Authorization Example
+postman-petstore-api-tests.md
 
-```
-POST /user/login
-Host: petstore.swagger.io
-Content-Type: application/json
-Authorization: Bearer {{auth_token}}
-```
+🗄️ SQL Queries
+SQL statements for verifying data integrity and correctness
 
-#### 🧪 Postman Test Snippet
+SELECT queries for data retrieval and validation
 
-```javascript
-pm.test("Status code is 200", function () {
-    pm.response.to.have.status(200);
-});
+JOINs to ensure relational consistency
 
-pm.test("Response time is less than 1000ms", function () {
-    pm.expect(pm.response.responseTime).to.be.below(1000);
-});
-```
+UPDATE and DELETE queries executed on non-production environments
 
----
-
-### 🗄️ SQL Queries
-
-- SQL statements to verify data integrity and correctness
-- SELECT queries for data retrieval
-- JOINs to validate relational consistency
-- UPDATE and DELETE queries (tested on non-production environments)
-- Validation of imported data
+Validation of imported and migrated data
 
 📄 File:
-- `sql-queries-.md`
 
----
+sql-queries-.md
 
-### 🔧 Bug Reports
+🔧 Bug Reports
+Categorized bug reports (functional, cosmetic, layout-related)
 
-- Categorized bug reports (cosmetic, functional, layout-related)
-- Reproducible steps, expected and actual results, environment details
-- Severity and priority tagging
+Clear and reproducible steps with expected and actual results
+
+Detailed environment and severity/priority classification
 
 📄 Example:
-- `bug-reports-cosmetic-cloth-reserved.md`
 
----
+bug-reports-cosmetic-cloth-reserved.md
 
-### 📄 Test Plan
+🔗 Notes
+All files in this repository represent real QA deliverables and tasks
 
-- Testing objectives and scope
-- Features to be tested / not tested
-- Roles, responsibilities, tools used
-- Entry/Exit criteria and schedules
+Bug reports follow a consistent and clear format for easy reproducibility
 
-📄 Example:
-- `test-plan.md`
+API testing includes detailed validations, token management, and error handling
 
----
+Test plans and cases align with industry best practices for comprehensive coverage
 
-### 🧾 Improvement Suggestions
-
-- UI/UX feedback on layout and navigation
-- Message clarity and accessibility feedback
-- Actionable suggestions based on usability heuristics
-
-📄 File:
-- `Improvement.md`
-
----
-
-## 🛠️ Tools & Technologies
-
-- **Postman** (API testing, environments, scripting)
-- **SQL** (MySQL – query validation)
-- **Chrome DevTools** (Frontend and network debugging)
-- **Excel / Markdown** (Manual test case writing)
-- **GitHub** (Version control and collaboration)
-
----
-
-## 🔗 Notes
-
-- Each file in this repository represents a QA task or deliverable.
-- Bug reports follow consistent structure for clarity and reproducibility.
-- API testing is fully configured with headers, environments, tokens, and test validations.
-- Test plan and test cases are aligned with QA best practices.
-
----
-
-## 📧 Contact
-
-If you have any questions or would like to get in touch, feel free to contact me via GitHub:  
-🔗 https://github.com/neiraahmedbasic
