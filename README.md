@@ -1,4 +1,5 @@
 QA Portfolio – Neira Ahmedbasic
+
 Welcome to my QA portfolio! This repository showcases my practical work in manual testing, API testing with Postman, SQL validation, structured bug reporting, and usability improvements. The goal of this portfolio is to demonstrate my knowledge and hands-on experience in software testing across different tools and methodologies.
 
 📁 Contents
