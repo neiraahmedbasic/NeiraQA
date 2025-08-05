@@ -1,4 +1,4 @@
-# Bug Reports – Cosmetic Shop / Cloth Shop / DM/Reserved
+# Bug Reports – Cosmetic Shop / Cloth Shop /
 
 ---
 
