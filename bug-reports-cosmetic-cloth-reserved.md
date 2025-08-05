@@ -33,7 +33,7 @@ The value of the sale price is larger than the regular price.
 
 ---
 
-## 🐞 Bug Report 2: White Images and Blank Page – Reserved
+## 🐞 Bug Report 2: White Images and Blank Page – 
 
 **Summary:**  
 When the user loads the Reserved Special Offers page, white images and a blank page without data are displayed.
@@ -69,7 +69,7 @@ The problem appears related to page loading. Needs further analysis with Chrome 
 
 ---
 
-## 🐞 Bug Report 3: Page Scrolls to Footer on "Load More" – Reserved
+## 🐞 Bug Report 3: Page Scrolls to Footer on "Load More" – 
 
 **Summary:**  
 Loading additional products scrolls the page to the bottom instead of remaining at the position where new products are added.
@@ -81,7 +81,7 @@ When the user scrolls the page to load more products (e.g., via “Load more” 
 Desktop, Windows 10, Chrome version 124
 
 **Preconditions:**  
-The user is on a product category page on the Reserved website.
+The user is on a product category page on the cloth website.
 
 **Steps to Reproduce:**
 1. Scroll to the bottom of the product listing
